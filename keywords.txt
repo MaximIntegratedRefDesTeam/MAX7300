@@ -1,0 +1,14 @@
+Max7300	KEYWORD1
+enable_ports	KEYWORD2
+disable_ports	KEYWORD2
+enable_transition_detection	KEYWORD2
+disable_transition_detection	KEYWORD2
+config_port	KEYWORD2
+config_4_ports	KEYWORD2
+config_all_ports	KEYWORD2
+read_port	KEYWORD2
+write_port	KEYWORD2
+read_8_ports	KEYWORD2
+write_8_ports	KEYWORD2
+read_mask_register	KEYWORD2
+write_mask_register	KEYWORD2
