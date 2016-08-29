@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>MAX7300 Library for Arduino: max7300.h File Reference</title>
+<title>MAX7300 Library for Arduino: C:/Users/Justin.Jordan/Documents/Arduino/libraries/MAX7300/src/max7300.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="MI_Logo_Small_Pos_RGB_150dpi.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">MAX7300 Library for Arduino
-   &#160;<span id="projectnumber">version: 0.0</span>
+   &#160;<span id="projectnumber">version: 1.0.0</span>
    </div>
   </td>
  </tr>
@@ -84,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('max7300_8h.html','');});
+$(document).ready(function(){initNavTree('max7300_8cpp.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -103,26 +103,35 @@ $(document).ready(function(){initNavTree('max7300_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">max7300.h File Reference</div>  </div>
+<div class="title">max7300.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Header file for <a class="el" href="class_max7300.html">Max7300</a> class.  
+<p>Source file for <a class="el" href="class_max7300.html">Max7300</a> class.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
-<code>#include &quot;Wire.h&quot;</code><br />
-</div>
-<p><a href="max7300_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_max7300.html">Max7300</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<div class="textblock"><code>#include &quot;<a class="el" href="max7300_8h_source.html">max7300.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a0f26766b31ac3afb27c1655886929ff4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#a0f26766b31ac3afb27c1655886929ff4">MAX7300_S_BIT</a>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="separator:a0f26766b31ac3afb27c1655886929ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e4561668ca97cdf0e25fe8d395b4b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#ac5e4561668ca97cdf0e25fe8d395b4b5">MAX7300_M_BIT</a>&#160;&#160;&#160;(0x80)</td></tr>
+<tr class="separator:ac5e4561668ca97cdf0e25fe8d395b4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae667d4cd679fe5514c3c43e536f7e224"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#ae667d4cd679fe5514c3c43e536f7e224">MAX7300_CONFIGURATION</a>&#160;&#160;&#160;(0x04)</td></tr>
+<tr class="separator:ae667d4cd679fe5514c3c43e536f7e224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbaec21ca6a4f3e639030e6960fbec01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#afbaec21ca6a4f3e639030e6960fbec01">MAX7300_TRANSITION_DETECT_MASK</a>&#160;&#160;&#160;(0x06)</td></tr>
+<tr class="separator:afbaec21ca6a4f3e639030e6960fbec01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4308dbd4735701d9980a0860ac12ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#afb4308dbd4735701d9980a0860ac12ce">MAX7300_PORT_CONFIGURATION</a>&#160;&#160;&#160;(0x09)</td></tr>
+<tr class="separator:afb4308dbd4735701d9980a0860ac12ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6267d24d8d5fe0e702b6f63870b97ce1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#a6267d24d8d5fe0e702b6f63870b97ce1">MAX7300_PORT_ONLY_BASE_ADRS</a>&#160;&#160;&#160;(0x20)</td></tr>
+<tr class="separator:a6267d24d8d5fe0e702b6f63870b97ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9de10c9ef9df5ead78b8293274c2dd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="max7300_8cpp.html#af9de10c9ef9df5ead78b8293274c2dd0">MAX7300_8_PORTS_OFFSET</a>&#160;&#160;&#160;(0x40)</td></tr>
+<tr class="separator:af9de10c9ef9df5ead78b8293274c2dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Header file for <a class="el" href="class_max7300.html">Max7300</a> class. </p>
+<div class="textblock"><p>Source file for <a class="el" href="class_max7300.html">Max7300</a> class. </p>
 <dl class="section author"><dt>Author</dt><dd>Justin Jordan</dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.0</dd></dl>
 <p>Started: 14JUL15</p>
@@ -134,13 +143,98 @@ Classes</h2></td></tr>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL MAXIM INTEGRATED BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 <p>Except as contained in this notice, the name of Maxim Integrated Products, Inc. shall not be used except as stated in the Maxim Integrated Products, Inc. Branding Policy.</p>
 <p>The mere transfer of this software does not imply any licenses of trade secrets, proprietary technology, copyrights, patents, trademarks, maskwork rights, or any other form of intellectual property whatsoever. Maxim Integrated Products, Inc. retains all ownership rights. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="af9de10c9ef9df5ead78b8293274c2dd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_8_PORTS_OFFSET&#160;&#160;&#160;(0x40)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae667d4cd679fe5514c3c43e536f7e224"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_CONFIGURATION&#160;&#160;&#160;(0x04)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5e4561668ca97cdf0e25fe8d395b4b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_M_BIT&#160;&#160;&#160;(0x80)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afb4308dbd4735701d9980a0860ac12ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_PORT_CONFIGURATION&#160;&#160;&#160;(0x09)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6267d24d8d5fe0e702b6f63870b97ce1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_PORT_ONLY_BASE_ADRS&#160;&#160;&#160;(0x20)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f26766b31ac3afb27c1655886929ff4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_S_BIT&#160;&#160;&#160;(0x01)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afbaec21ca6a4f3e639030e6960fbec01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX7300_TRANSITION_DETECT_MASK&#160;&#160;&#160;(0x06)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="max7300_8h.html">max7300.h</a></li>
-    <li class="footer">Generated on Tue Jan 26 2016 14:52:34 for MAX7300 Library for Arduino by
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="max7300_8cpp.html">max7300.cpp</a></li>
+    <li class="footer">Generated on Mon Aug 29 2016 15:06:10 for MAX7300 Library for Arduino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
